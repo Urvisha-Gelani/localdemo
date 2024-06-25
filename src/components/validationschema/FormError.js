@@ -53,7 +53,7 @@ export const DepartmentEmployeesSchema = Yup.object({
     ).matches(/^\S*$/, 'Email cannot contain spaces').matches(/^[^\s@]+@[^\s@]+\.[^\s@]+$/, 'Invalid email address').required("Please enter email"),
     address: Yup.string().min(2).matches(/^[a-zA-Z0-9\s,'-]*$/, 'Invalid characters').matches(/([a-zA-Z])[a-zA-Z0-9]/, 'Address must contain letters').required("Please enter address"),
     about: Yup.string().matches(/([a-zA-Z])[a-zA-Z0-9]/, 'about must contain letters').matches(/^[a-zA-Z0-9\s,'-]*$/, 'Invalid characters').required("Please enter about"),
-    phone: Yup.string().min(10).matches(/^\+?\d{0,10}$/, 'Phone number is not valid').matches(/^\S*$/, 'Phone number cannot contain spaces').required('Please enter phone number'),
+    phone: Yup.string().min(10).matches(/^\+?\d{0,10}$/, 'phone number is not valid').matches(/^\S*$/, 'Phone number cannot contain spaces').required('Please enter phone number'),
     position: Yup.string().required("Please enter position"),
     department_id: Yup.string().required("Please select department"),
 

@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+body {
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/721/613/desktop-wallpaper-abstract-login-page.jpg')!important;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} */
+.position-ab {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255 255 255 / 30%);
+  border-radius: 10px;
+  /* backdrop-filter: blur(10px); */
+}
+
+.popup-overlay {
+  opacity: 0.4;
+  background: black;
+}
+
+.popup-content {
+  top: 50%!important;
+  left: 50%!important;
+  background: white;
+  transform: translate(-50%, -50%)!important;
+  width: 45%;
+  padding: 12px!important;
+}
+
+.margin-0{
+  margin: 0!important;
+}
+.popup-arrow {
+  display: none!important;
+}
+
+/* @media only screen and (min-device-width: 720px) and (max-device-width: 1440px) {
+  .popup-content {
+    top: 162% !important;
+  }
+} */

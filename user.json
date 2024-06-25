@@ -1,0 +1,41 @@
+{
+  "Users": [
+    {
+      "id": "Ap9Ezm07UnyB4ksr-UBJ4",
+      "username": "task1",
+      "email": "task1@gamil.com",
+      "password": "U2FsdGVkX1/i5u5vCCzhqyJu5m8C4uCMfm0w6vklw7A=",
+      "time": "Mon, 10 Jun 2024 04:33:12 GMT",
+      "companies": []
+    },
+    {
+      "id": "xLDuDIvTnJBqSzgGcmQ1s",
+      "username": "task2",
+      "email": "task2@gmail.com",
+      "password": "U2FsdGVkX1+DhgJwwX0FHDhr5+APBYRU37YOajnYhQA=",
+      "time": "Mon, 10 Jun 2024 04:33:32 GMT",
+      "companies": [
+        {
+          "id": "J2ex859S9kb3WA6qcPifp",
+          "company": "sdcsds",
+          "url": "daDef.com",
+          "address": "dskdjs"
+        },
+        {
+          "id": "9ksPZdQp2cpoK__4eMufl",
+          "company": "sdsd",
+          "url": "saada.com",
+          "address": "kadjieru"
+        }
+      ]
+    },
+    {
+      "id": "2fWjU6KfZqUdAMhBd8Od-",
+      "username": "sadwdwe",
+      "email": "dwfew@gmail.com",
+      "password": "U2FsdGVkX199QYGQSQs5M6KLjGV5pGJqz06yBJvXeWw=",
+      "time": "Mon, 10 Jun 2024 05:53:53 GMT",
+      "companies": []
+    }
+  ]
+}
